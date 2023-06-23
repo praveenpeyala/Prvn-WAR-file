@@ -1,5 +1,5 @@
 pipeline {
-  agent { master }
+  agent any
   stages {
      stage('S1-Cont. Downld') 
        {
